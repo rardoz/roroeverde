@@ -1,0 +1,11 @@
+#user-login-form {
+  display: flex;
+  color: var(--primary-bg-color);
+  background: greenyellow;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  box-shadow: 30px 30px 0px magenta;
+  width: 300px;
+  justify-content: stretch;
+}
