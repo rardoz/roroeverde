@@ -1,0 +1,22 @@
+{
+  "name": "roroeverde",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "web/public/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rardoz/roroeverde.git"
+  },
+  "keywords": [
+    "Website"
+  ],
+  "author": "roroeverde",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rardoz/roroeverde/issues"
+  },
+  "homepage": "https://github.com/rardoz/roroeverde#readme"
+}
