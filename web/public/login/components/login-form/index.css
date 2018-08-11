@@ -8,4 +8,5 @@
   box-shadow: 30px 30px 0px magenta;
   width: 300px;
   justify-content: stretch;
+  padding: var(--gutter-step * 2);
 }
