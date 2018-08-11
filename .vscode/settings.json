@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "html.format.enable": true,
+  "html.suggest.html5": true,
+  "html.format.indentInnerHtml": true,
+  "editor.formatOnSave": true
+}

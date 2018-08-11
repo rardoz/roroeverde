@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>roroeverde</title>
+        <meta name="description" content="Maker of things. Seattleite. Hot mess.">
+        <meta name="author" content="roroeverde">
+
+        <!--scripts-->
+        <script type="text/javascript">
+            const onHtmlTemplateLoaded = (link) => {
+                // var post = this.import.querySelector('template');
+                // var container = document.querySelector('#container');
+                // container.appendChild(post.cloneNode(true));
+                // Clone the <template> in the import.
+                var template = link.import.querySelector('template');
+                var clone = document.importNode(template.content, true);
+                document.querySelector('#app').appendChild(clone);
+            }
+        </script>
+
+        <!--html imports-->
+        <link rel="import" href="/assets/shared/nav/index.html" async onload="onHtmlTemplateLoaded(this)" />
+
+    </head>
+
+    <body>
+        <div id="app"></div>
+    </body>
+
+</html>

@@ -4,7 +4,8 @@
   "description": "My personal website",
   "main": "web/public/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./web/public"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/rardoz/roroeverde/issues"
   },
-  "homepage": "https://github.com/rardoz/roroeverde#readme"
+  "homepage": "https://github.com/rardoz/roroeverde#readme",
+  "dependencies": {
+    "hive-ui": "^0.8.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
