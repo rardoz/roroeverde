@@ -1,7 +1,9 @@
-class Nav {
-  constructor(thing) {
-    console.log("nav code");
+(w => {
+  class Nav {
+    constructor(thing) {
+      console.log("nav code");
+    }
   }
-}
 
-window.Nav = window.Nav || new Nav();
+  w.Nav = w.Nav || new Nav();
+})(window);
