@@ -10,10 +10,6 @@
         <!--scripts-->
         <script type="text/javascript">
             const onHtmlTemplateLoaded = (link) => {
-                // var post = this.import.querySelector('template');
-                // var container = document.querySelector('#container');
-                // container.appendChild(post.cloneNode(true));
-                // Clone the <template> in the import.
                 var template = link.import.querySelector('template');
                 var clone = document.importNode(template.content, true);
                 document.querySelector('#app').appendChild(clone);
