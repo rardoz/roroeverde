@@ -4,6 +4,8 @@ Personal Website
 
 ## Example Template
 
+### PAGE
+
 ```html
 <!doctype html>
 <html lang="en">
@@ -29,6 +31,21 @@ Personal Website
     <body></body>
 
 </html>
+```
+
+### Partial
+
+```html
+<template>
+  <!--STYLES-->
+  <link rel="stylesheet" href="/assets/shared/components/nav/index.css" async />
+
+  <!--HTML-->
+  <nav>Hello World!</nav>
+</template>
+
+<!--JS-->
+<script type="text/javascript" src="/assets/shared/components/nav/index.js"></script>
 ```
 
 ## References
