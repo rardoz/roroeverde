@@ -1,0 +1,4 @@
+nav {
+  background: var(--primary-bg-color, black);
+  color: var(--primary-text-color, white);
+}

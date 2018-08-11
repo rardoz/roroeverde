@@ -1,0 +1,18 @@
+@import "variables.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--primary-bg-color, black);
+  font-family: var(--primary-font-family, "sans-serif");
+  font-size: var(--primary-font-size, 16px);
+}
+
+body {
+  color: var(--primary-text-color, white);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
